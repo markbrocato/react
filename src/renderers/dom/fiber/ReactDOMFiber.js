@@ -412,6 +412,10 @@ function renderSubtreeIntoContainer(
 }
 
 var ReactDOM = {
+
+  ReactFiberReconciler: ReactFiberReconciler,
+  ReactDOMFrameScheduling: ReactDOMFrameScheduling,
+
   render(
     element: ReactElement<any>,
     container: DOMContainerElement,
